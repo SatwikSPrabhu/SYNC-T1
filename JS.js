@@ -1,5 +1,4 @@
 $(document).ready(function() {  
-    //Thumbnails slider
     $('.thumbnails-slider').on('init', function(e, slider) {
       $(slider.$slides.find('.thumbnail-button')).each(function(index) {
         $(this).on('click', function() {
@@ -11,14 +10,12 @@ $(document).ready(function() {
       });
     });
     
-    //Initialize the slider
     $('.thumbnails-slider').slick({
       vertical: true,
       slidesToShow: 4,
       infinite: false
     });
     
-    //Main image slider
     $('.main-image-slider').slick({
       slidesToShow: 1,
       draggable: false

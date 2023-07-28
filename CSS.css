@@ -8,7 +8,6 @@ body {
   font-family: 'Varela Round', sans-serif;
 }
 
-/* Navbar */
 .navigation {
     height: 70px;
     background: #30324f65;
@@ -95,9 +94,6 @@ body {
     }
   }
   
-  
-  
-  /* Sidebar, burger */
   @import url('https://fonts.googleapis.com/css?family=Varela+Round');
   html, body {
     scroll-behavior: smooth;
@@ -238,8 +234,6 @@ body {
       margin-top: -9px;
   }
 
-/* Carousel */
-
 :root {
   --main-image-width: 700px;
   --main-image-height: 600px;
@@ -249,10 +243,9 @@ body {
 
 .product-image-carousels {
   display: flex;
-  justify-content: center; /* Center the carousel */
+  justify-content: center;
 }
 
-/* Thumbnails carousel */
 .thumbnails-slider {
   width: var(--thumbnail-track-width);
   padding: 30px 0;
@@ -321,7 +314,6 @@ body {
   transition: all 0.1s linear;
 }
 
-/* Main image carousel */
 .main-image-slider {
   position: relative;
   width: var(--main-image-width);
@@ -432,28 +424,28 @@ body {
 }
 
 .carousel {
-  flex: 0 0 50%; /* Set a flexible width for the carousel */
+  flex: 0 0 50%;
   max-width: 800px;
-  margin-left: 30px; /* Add some right padding for spacing */
+  margin-left: 30px;
 }
 
 .something {
-  flex: 0 0 50%; /* Set a flexible width for the "something" section */
+  flex: 0 0 50%;
   max-width: 600px;
   padding-top: 50px;
 }
 
 @media only screen and (max-width: 660px) {
   .carouseldiv {
-    flex-direction: column; /* Change the flex direction to stack elements vertically */
-    align-items: center; /* Center the items vertically */
+    flex-direction: column;
+    align-items: center;
   }
 
   .carousel,
   .something {
-    flex: 0 0 100%; /* Set full width for both carousel and "something" section on smaller screens */
+    flex: 0 0 100%;
     max-width: 100%;
-    padding-right: 0; /* Remove right padding */
+    padding-right: 0;
   }
 }
 
@@ -534,7 +526,6 @@ body {
   }
 }
 
-  /* Maintxt */
   .maintxt {
     font-size: 30px;
   }
@@ -562,7 +553,6 @@ body {
   }
 
 
-  /* Table */
   strong {
     font-weight: bold;
   }
@@ -575,8 +565,8 @@ body {
     line-height: 24px;
     margin: 30px auto;
     text-align: left;
-    width: 100%; /* Change width to 100% */
-    max-width: 800px; /* Add max-width to limit the table size on larger screens */
+    width: 100%;
+    max-width: 800px;
   }
   
   td {
@@ -629,7 +619,6 @@ body {
     text-shadow: 0 1px 0 #fff;
   }  
 
-  /* Overlay */
   .container1 {
     position: relative;
   }
@@ -741,7 +730,6 @@ body {
     text-align: center;
   }
 
-  /* Reviews */
   .reviews {
     padding-left: 50px;
     padding-right: 50px;
@@ -915,7 +903,6 @@ body {
     top: -2px;
   } 
 
-/* Footer */
 footer {
   background-color: rgba(15, 15, 15, 0.853);
   color: aliceblue;
